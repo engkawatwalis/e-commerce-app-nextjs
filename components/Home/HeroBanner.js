@@ -27,8 +27,8 @@ export default function HeroBanner() {
             initial='hidden'
             animate={controls}
             >
-                <motion.p className={`overline`} variants={translateXFromLeft}>new product</motion.p>
-                <motion.h1 variants={translateXFromLeft} variants={translateXFromLeft}>xx99 mark ii headphones</motion.h1>
+                <motion.p className='overline' variants={translateXFromLeft}>new product</motion.p>
+                <motion.h1 variants={translateXFromLeft}>xx99 mark ii headphones</motion.h1>
                 <motion.p variants={translateXFromLeft}>Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</motion.p>
                 <Button variants={translateXFromLeft} type='button' color='orange' href='/products/xx99-mark-two-headphones'>see product</Button>
             </motion.div>
