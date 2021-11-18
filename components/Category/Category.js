@@ -10,8 +10,8 @@ export default function Category(props) {
     return (
     
             <ul className={styles['product-list']}>
-                {props.categoryDetail.map(product=>
-                   <CategoryItem product={product} deviceSize={deviceSize}/>
+                {props.categoryDetail.map((product, i)=>
+                   <CategoryItem key={i} product={product} deviceSize={deviceSize}/>
                 )}  
             </ul>
     
