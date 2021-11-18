@@ -1,0 +1,22 @@
+.amount-input{
+    height: 45px;
+    width: 120px;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.amount-input button{
+    border: none;
+    background-color: transparent;
+    opacity: 25%;
+}
+
+.amount-input button:hover{
+    cursor: pointer;
+}
+
+.amount-input span{
+    opacity: 100%;
+}

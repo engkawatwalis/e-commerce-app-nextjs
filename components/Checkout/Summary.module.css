@@ -1,0 +1,19 @@
+.summary-card{
+    background-color: #fff;
+}
+
+.price-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.price-container p{
+    margin: 0;
+}
+
+.grand-total {
+    color: #D87D4A;
+    margin-top: 2rem;
+}

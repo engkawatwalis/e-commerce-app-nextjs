@@ -1,0 +1,30 @@
+.product-detail{
+    width: 90%;
+    margin: auto;
+    padding-top: calc(90px);
+    margin-bottom: 10rem;
+}
+
+.product-detail img{
+    margin: 0.5rem 0;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-detail > div{
+    margin: 5rem 0;
+}
+
+
+@media (min-width: 768px) {
+
+    .product-detail {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px){
+    .product-detail {
+        padding-top: 0;
+    }
+}

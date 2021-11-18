@@ -1,0 +1,19 @@
+.title{
+    height: 192px;
+    padding-top: 92px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h4{
+    color: #fff;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .title{
+        padding-top: 0;
+    }
+}

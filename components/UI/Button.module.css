@@ -1,0 +1,33 @@
+.button{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 0.8rem 2rem; 
+    width: fit-content;
+    min-height: 43px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button.orange{
+    border: none;
+    background-color: #D87D4A;
+    color: #fff;
+}
+
+.button.orange:hover{
+    background-color: #FBAF85;
+}
+
+.button.black{
+    border: 1px solid #000;
+    background: transparent;
+}
+.button.black:hover{
+    background-color: #000;
+    color: #fff;
+}

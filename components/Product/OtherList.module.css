@@ -1,0 +1,28 @@
+.other-list h5{
+margin-bottom: 2rem;
+}
+
+.other-list,
+.other-list li{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 2rem;
+}
+
+.other-list li > *{
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .other-list ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .other-list ul > li{
+        width: 30%;
+    }
+}

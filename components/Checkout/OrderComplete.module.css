@@ -1,0 +1,59 @@
+.card{
+    position: fixed;
+    top: 120px;
+    left: 5%;
+    height: fit-content;
+    width: 90%;
+    background-color: #fff;
+    padding: 10%;
+    
+
+}
+
+.product-list-card{
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.product-list-card > li{
+    width: 100%;
+}
+
+.total{
+    background-color: #000;
+    color: #fff;
+    width: 120%;
+    padding: 1rem 10%;
+}
+
+.total p{
+    margin: 0;
+}
+
+.total p:nth-child(2){
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 1;
+    margin-top: 0.5rem;
+
+}
+
+.card > button{
+
+    margin: 2rem 0 0;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .card{
+        width: 50%;
+        left: 25%;
+        padding: 4rem;
+    }
+    
+}

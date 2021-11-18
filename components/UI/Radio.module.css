@@ -1,0 +1,46 @@
+.options li > button {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #CFCFCF ;
+    background-color: transparent;
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.options li > button.active{
+    border-color: #D87D4A;
+}
+
+.options li > button:hover{
+    cursor: pointer;
+}
+
+.options li .radio-container{
+    border-radius: 50%;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    border: solid 1px #CFCFCF;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.options li .radio-select{
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #D87D4A;
+    margin: 0;
+}
+
+.options li p{
+    margin: 0;
+    color: #000;
+    font-weight: bold;
+    opacity: 100%;
+}

@@ -1,0 +1,33 @@
+.category-item > div{
+    background-color: #F1F1F1;
+    position: relative;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+}
+
+.category-item .image{
+    position: absolute;
+    top: -4rem;
+    width: 100%;
+    min-height: 100%;
+}
+
+
+.category-item span img{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+
+.category-item > div > span:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .category-item{
+        width: 30%;
+    }   
+}

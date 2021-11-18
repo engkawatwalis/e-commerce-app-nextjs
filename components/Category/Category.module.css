@@ -1,0 +1,13 @@
+.product-list{
+    margin: 2rem 0 10rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+
+    .product-list{
+        margin-bottom: 5rem;
+    }
+}

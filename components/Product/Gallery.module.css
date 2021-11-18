@@ -1,0 +1,30 @@
+@media (min-width: 768px){
+    .product-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .product-gallery > img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .product-gallery > img:first-child{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .product-gallery > img:nth-child(2){
+        grid-column: 1/2;
+        grid-row: 2/3;
+        
+    }
+
+    .product-gallery > img:last-child{
+        grid-column: 2/3;
+        grid-row: 1/3;
+        
+    }
+}
+
